@@ -1,6 +1,6 @@
 import * as dotenv from "dotenv";
 dotenv.config();
-import { IConfig } from "./interface";
+import { IConfig } from "./interface.js";
 
 export const config: IConfig = {
   api: process.env.API,

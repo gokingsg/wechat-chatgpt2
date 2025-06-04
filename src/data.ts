@@ -1,5 +1,5 @@
 import {ChatCompletionRequestMessage, ChatCompletionRequestMessageRoleEnum} from "openai";
-import {User} from "./interface";
+import {User} from "./interface.js";
 import {isTokenOverLimit} from "./utils.js";
 
 /**
